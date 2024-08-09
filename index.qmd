@@ -1,0 +1,35 @@
+---
+title: "Pythoncode"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```py
+from math import factorial as fac
+def nameAge(name, age):
+	print("Hi, I am", name)
+	print("My age is ", age)
+    print("Factorial of my age is ", fac(age))
+
+nameAge(name="Prince", age=20)
+
+```
+
+```r
+library(package_name)
+
+fac <- function(n) {
+  if(n == 0) return(1)
+  return(n * fac(n-1))
+}
+
+nameAge <- function(name, age) {
+  cat("Hi, I am", name, "\n")
+  cat("My age is", age, "\n")
+  cat("Factorial of my age is", fac(age), "\n")
+}
+
+nameAge(name="Prince", age=20)
+```
