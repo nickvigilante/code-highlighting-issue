@@ -15,6 +15,10 @@ def nameAge(name, age):
 
 nameAge(name="Prince", age=20)
 
+for i in range(0, 10):
+  if i % 2 == 0:
+    print(f"{i} is even")
+
 ```
 
 ```r
@@ -32,4 +36,10 @@ nameAge <- function(name, age) {
 }
 
 nameAge(name="Prince", age=20)
+
+for (i in 0:9) {
+  if (i %% 2 == 0) {
+    cat(i, "is even\n")
+  }
+}
 ```

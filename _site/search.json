@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "Pythoncode",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nfrom math import factorial as fac\ndef nameAge(name, age):\n    print(\"Hi, I am\", name)\n    print(\"My age is \", age)\n    print(\"Factorial of my age is \", fac(age))\n\nnameAge(name=\"Prince\", age=20)\nlibrary(package_name)\n\nfac &lt;- function(n) {\n  if(n == 0) return(1)\n  return(n * fac(n-1))\n}\n\nnameAge &lt;- function(name, age) {\n  cat(\"Hi, I am\", name, \"\\n\")\n  cat(\"My age is\", age, \"\\n\")\n  cat(\"Factorial of my age is\", fac(age), \"\\n\")\n}\n\nnameAge(name=\"Prince\", age=20)"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nfrom math import factorial as fac\ndef nameAge(name, age):\n    print(\"Hi, I am\", name)\n    print(\"My age is \", age)\n    print(\"Factorial of my age is \", fac(age))\n\nnameAge(name=\"Prince\", age=20)\n\nfor i in range(0, 10):\n  if i % 2 == 0:\n    print(f\"{i} is even\")\nlibrary(package_name)\n\nfac &lt;- function(n) {\n  if(n == 0) return(1)\n  return(n * fac(n-1))\n}\n\nnameAge &lt;- function(name, age) {\n  cat(\"Hi, I am\", name, \"\\n\")\n  cat(\"My age is\", age, \"\\n\")\n  cat(\"Factorial of my age is\", fac(age), \"\\n\")\n}\n\nnameAge(name=\"Prince\", age=20)\n\nfor (i in 0:9) {\n  if (i %% 2 == 0) {\n    cat(i, \"is even\\n\")\n  }\n}"
   }
 ]
